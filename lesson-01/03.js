@@ -5,4 +5,14 @@
 */
 
 // your code
-let sum
+let sum = 0;
+let counter = 0;
+let limit = 20
+
+while(counter <= limit){
+  if (counter % 2 != 0){
+    sum += counter;
+  }
+  counter++;
+}
+
